@@ -1,0 +1,19 @@
+LATEST BUY PLAN TEMPLATES - OCTOBER TO DECEMBER 2026
+
+Regular: REGULAR_DEPT_BP (188 rows) and REGULAR_ART_BP (405 rows).
+Fill OCT_2026_BUY_PLAN, NOV_2026_BUY_PLAN and DEC_2026_BUY_PLAN.
+
+Winter: WINTER_DEPT_BP (26 rows) and WINTER_ART_BP (77 rows).
+Fill OCT_2026_BUY_PLAN and WINTER_BUY_PLAN (full season quantity).
+
+Enter latest quantities from row 2 in the shaded columns, using 0 for no plan.
+Keep only categories available in your current plan. Remove other prefilled rows.
+Do not leave quantities blank on retained rows. Header-only sheets are allowed.
+Keep sheet names, headers and category names unchanged. Do not add subtotals.
+Department and Article plans are supplied independently; no distribution is assumed.
+Articles present in uploaded raw inputs but missing from plans are added automatically
+to the generated report with plan 0. Old template-only articles are omitted.
+
+Upload each file into its corresponding Regular or Winter buy-plan box.
+The generated report uses live links and calculates regular three-month totals.
+The four raw-input upload templates remain unchanged.

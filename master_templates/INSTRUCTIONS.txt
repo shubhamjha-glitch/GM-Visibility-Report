@@ -1,0 +1,27 @@
+ONE METADATA UPLOAD - THREE SHEETS
+
+DIVISION_MERCHANT:
+  Fill MERCHANT for each DIVISION. One matching row per division.
+
+ARTICLE_MASTER:
+  Keys: DIVISION, SECTION, DEPARTMENT, ARTICLE NAME.
+  Fill ART_STATUS, STH% MAMJ'26 and STH% JA'26. STH is used in Regular only.
+  The legacy ATTRIBUTE column is ignored and may be omitted.
+
+DEPARTMENT_MASTER:
+  Keys: DIVISION, SECTION, DEPARTMENT.
+  Fill ATTRIBUTE, SALE RANK, STH% MAMJ'26 and STH% JA'26.
+  Sale Rank is fetched at Department level in both Department and Article reports.
+  Department STH is used in Regular only. Imported fields are pasted as values.
+
+Enter percentages as 12.5% or 0.125, not plain 12.5 for 12.5%.
+Blank metadata remains blank. Duplicate keys are rejected. Add new categories as
+needed. Metadata does not add report rows; the source/buy-plan union controls them.
+
+UPDATED PPO TEMPLATE:
+  Use PPO_DATA_Upload_Template_Schedule_DT.xlsx.
+  SCHEDULE DT is Delivery Date; no separate DELIVERY DATE column is required.
+  DELIVERY DATE is also accepted. If both columns are supplied, they must agree.
+  October PPO includes October plus all earlier pending deliveries.
+  November and December use their own Delivery Date month windows.
+  Keep the other field names and enter raw data starting at row 2.
