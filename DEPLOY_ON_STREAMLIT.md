@@ -39,7 +39,7 @@ For a new period, upload plans with matching `MON_YYYY_BUY_PLAN` headers (e.g. N
 
 ## Validation and limits
 
-Percentage cells use 0%; coverage quantities use #,##0. Colour rules retain their conditions, fills and fonts but do not override cell number formats with General.
+Report percentage cells use 0%; report coverage quantities use #,##0. Colour rules retain their conditions, fills and fonts but do not override cell number formats with General. Summary formatting follows the supplied Summary(1).xlsx reference, including its accounting-style quantity formats, column widths, row heights, borders, fills, header spacing and page settings. Winter uses the same reference layout with Winter labels.
 
 The cloud engine calculates the bundled report's arithmetic, MIN, MAX, IF, IFERROR, SUM and SUBTOTAL formulas, writes cached results, and retains the formulas for Excel to recalculate when report input cells change. Custom templates using other formula functions are rejected with a clear message rather than returning unchecked results.
 
